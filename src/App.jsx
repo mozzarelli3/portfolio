@@ -1,12 +1,11 @@
 import './App.css'
-import 'https://www.w3schools.com/w3css/4/w3.css'
 
 function App() {
 
   return (
     <>
     <div className="header">
-      <a href="#">?</a>
+      <a href="#">Projects</a>
       <a href="#">GitHub</a>
       <a href="#">LinkedIn</a>
       <a href="#">CV</a>
