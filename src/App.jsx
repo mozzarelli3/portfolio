@@ -34,10 +34,14 @@ function App() {
         </p>
         <p><em>~ Enter School of Code ~</em></p>
         <p>About a month before my graduation, I was incredibly lucky to be enrolled onto the School of Code bootcamp - an intensive,
-          16-week bootcamp that covers all aspects of full-stack development. During this time I learned all the skills (both
-          technical and soft) needed to kick-start my career as a junior front-end developer.
-          It was truly life-changing.
+          16-week bootcamp that covers all aspects of full-stack development. During this time I developed both the technical and soft
+          skills essential for kick-starting my career as a junior front-end developer.
         </p>
+        <p>
+        My background in Biomedical Sciences, combined with my experience in web development, provides me with a keen eye for detail,
+        strong critical thinking and evaluation skills, and a unique ability to approach complex problems with a scientific perspective.
+        </p>
+        <p>In short, I get the job done, and I get the job done <b>well</b>.</p>
       </div>
       <p className="summary">Please scroll down to find out more.</p>
     </div>
