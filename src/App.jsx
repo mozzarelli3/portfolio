@@ -1,14 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Front-End Ellie</h1>
+    <div className="header">
+      <a href="#">?</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">CV</a>
+    </div>
+
+    <div className="hero">
+      <h1 id="name">Ellie Parry</h1>
+      <h2 id="job-title">FRONT-END DEVELOPER</h2>
+    </div>
+
+    <div className="projects">
+      <h2>Projects</h2>
+    </div>
+    
+    <div className="toolbox">
+      <h2>Toolbox</h2>
+    </div>
+
+    <div className="about-me">
+      <h2>About Me</h2>
+    </div>
+
+    <div className="contact">
+      <h2>Contact</h2>
+    </div>
     </>
   )
 }
