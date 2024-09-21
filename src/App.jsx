@@ -16,36 +16,6 @@ function App() {
       <h2 id="job-title">FRONT-END DEVELOPER</h2>
     </div>
 
-    <div className="about-me">
-      <h2>About Me</h2>
-      <div className="ellie-info">
-        <p>Hi, I'm Ellie, a lover of puzzles, crafting, and problem-solving.</p>
-        <p>Growing up I was always drawing, knitting, or doing
-          some kind of arts and crafts. I've had a passion for creativity for as long as I can remember.
-        </p>
-        <p>During school I excelled at science, so that felt like the obvious career choice. I really enjoyed biology so 
-          I went to study Biomedical Sciences with intention of going into cancer research.
-        </p>
-        <p>However, during my degree I had the nagging feeling that I was leaving behind what made me "me" - my creativity. Eventually, I knew this meant I had to turn my career plans around, which was a very daunting thought but I knew it was the
-        right thing to do.
-        </p>
-        <p>I took the time to think through and research other options that would incorporate this but also push and excite me as much
-          as biology has done. It was here I stumbled upon front-end development.
-        </p>
-        <p><em>~ Enter School of Code ~</em></p>
-        <p>About a month before my graduation, I was incredibly lucky to be enrolled onto the School of Code bootcamp - an intensive,
-          16-week bootcamp that covers all aspects of full-stack development. During this time I developed both the technical and soft
-          skills essential for kick-starting my career as a junior front-end developer.
-        </p>
-        <p>
-        My background in Biomedical Sciences, combined with my experience in web development, provides me with a keen eye for detail,
-        strong critical thinking and evaluation skills, and a unique ability to approach complex problems with a scientific perspective.
-        </p>
-        <p>In short, I get the job done, and I get the job done <b>well</b>.</p>
-      </div>
-      <p className="summary">Please scroll down to find out more.</p>
-    </div>
-
     <div className="toolbox">
       <h2>Toolbox</h2>
       <div className="jellybean-section">
@@ -142,6 +112,35 @@ function App() {
         </div>
       </div>
 
+    </div>
+
+    <div className="about-me">
+      <h2>About Me</h2>
+      <div className="ellie-info">
+        <p>Hi, I'm Ellie, a lover of puzzles, crafting, and problem-solving.</p>
+        <p>Growing up I was always drawing, knitting, or doing
+          some kind of arts and crafts. I've had a passion for creativity for as long as I can remember.
+        </p>
+        <p>During school I excelled at science, so that felt like the obvious career choice. I really enjoyed biology so 
+          I went to study Biomedical Sciences with intention of going into cancer research.
+        </p>
+        <p>However, during my degree I had the nagging feeling that I was leaving behind what made me "me" - my creativity. Eventually, I knew this meant I had to turn my career plans around, which was a very daunting thought but I knew it was the
+        right thing to do.
+        </p>
+        <p>I took the time to think through and research other options that would incorporate this but also push and excite me as much
+          as biology has done. It was here I stumbled upon front-end development.
+        </p>
+        <p><em>~ Enter School of Code ~</em></p>
+        <p>About a month before my graduation, I was incredibly lucky to be enrolled onto the School of Code bootcamp - an intensive,
+          16-week bootcamp that covers all aspects of full-stack development. During this time I developed both the technical and soft
+          skills essential for kick-starting my career as a junior front-end developer.
+        </p>
+        <p>
+        My background in Biomedical Sciences, combined with my experience in web development, provides me with a keen eye for detail,
+        strong critical thinking and evaluation skills, and a unique ability to approach complex problems with a scientific perspective.
+        </p>
+        <p>In short, I get the job done, and I get the job done <b>well</b>.</p>
+      </div>
     </div>
 
     <div className="contact">
