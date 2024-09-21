@@ -11,14 +11,14 @@ body {
 .header a {
     color: #D9D9D9;
     text-decoration: none;
-    font-size: clamp(10px, 5vw, 20px);
+    font-size: clamp(10px, 3vw, 25px);
 }
 
 .hero {
-    padding: 10vh 5vw 11vw;
+    padding: 5vw 4.5vw 11vw;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
 }
 
 .hero h1 {
@@ -29,10 +29,11 @@ body {
 .hero h2 {
     font-size: clamp(20px, 5vw, 55px);
     margin-top: 0rem;
+    margin-left: 1vw;
     font-family: "Mukta", sans-serif;
     font-weight: 200;
 }
 
 .projects {
-    background-color: #284B63;
+    background-color: #284B6340;
 }

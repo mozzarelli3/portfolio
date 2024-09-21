@@ -18,6 +18,15 @@ function App() {
 
     <div className="projects">
       <h2>Projects</h2>
+      <div className="eatEasy">
+        <h3>eatEasy</h3>
+      </div>
+      <div className="fireplace-palace">
+        <h3>Fireplace Palace</h3>
+      </div>
+      <div className="film-wizard">
+        <h3>FilmWizard AI Chat Bot</h3>
+      </div>
     </div>
     
     <div className="toolbox">
