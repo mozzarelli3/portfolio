@@ -34,6 +34,10 @@ img {
     font-size: clamp(10px, 3vw, 25px);
 }
 
+.header a:hover {
+    color: #D88C9A;
+}
+
 
 
 
