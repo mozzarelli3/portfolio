@@ -1,11 +1,26 @@
 body {
     font-family:"Playfair Display", serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+a {
+    color: #D9D9D9;
+    text-decoration: none;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     padding: 1rem 2rem 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header a {
@@ -15,7 +30,7 @@ body {
 }
 
 .hero {
-    padding: 5vw 4.5vw 11vw;
+    padding: 6.5vw 5vw 11vw;
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -36,4 +51,41 @@ body {
 
 .projects {
     background-color: #284B6340;
+    padding: 1vh 3vw;
+}
+
+.projects h2 {
+    font-size: clamp(20px, 5vw, 60px);
+}
+
+.projects h3 {
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-size: clamp(20px, 3vw, 40px);
+}
+
+.projects p {
+    font-size: clamp(10px, 1.1vw, 40px);
+}
+
+.projects img {
+    opacity: 85%;
+    width: 30vw;
+}
+
+.projects h2, .eateasy, .fireplace-palace, .film-wizard {
+    padding-bottom: 2vw;
+    border-bottom: solid 1px #5e5e5e;
+}
+
+.project-description-container {
+    display: flex;
+}
+
+.project-description-container p {
+    padding-left: 2vw;
+}
+
+.weather-finder {
+    padding-bottom: 3.5vw;
 }
