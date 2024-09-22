@@ -6,7 +6,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
 a {
     color: #D9D9D9;
@@ -17,27 +17,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-
-/* ------ HEADER ------ */
-
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem 2rem 0;
-}
-
-
-.header a {
-    color: #D9D9D9;
-    text-decoration: none;
-    font-size: clamp(10px, 3vw, 25px);
-}
-
-.header a:hover {
-    color: #D88C9A;
-}
-
 
 
 
@@ -112,11 +91,11 @@ img {
  
 
 .toolbox-bean {
-    background-color: #353535;
+    background-color: #2b3e4bcc;
 }
 
 .toolbox-bean:hover {
-    background-color: #4d4c4c;
+    background-color: #14405e;
 }
 
 
@@ -130,6 +109,7 @@ img {
 .projects img {
     opacity: 85%;
     width: 30vw;
+    border-radius: 7px;
 }
 
 .projects h2, .eateasy, .fireplace-palace, .film-wizard {
@@ -141,7 +121,7 @@ img {
     display: flex;
 }
 
-.project-description-container p {
+.project-description {
     padding-left: 2vw;
 }
 
@@ -149,8 +129,13 @@ img {
     padding-left: 2vw;
 }
 
-.jellybean-project-section p {
-    padding-left: 0;
+.project-bean {
+    background-color: #D88C9A40;
+}
+
+.project-bean:hover {
+    background-color: #D88C9A;
+    color: #2f2f2f;
 }
 
 .weather-finder {
@@ -199,14 +184,3 @@ img {
 }
 
 
-
-/* ------ FOOTER ------ */ 
-
-footer {
-    background-color: #353535;
-    padding: 1vh 3vw 3vw;
-}
-
-footer p {
-    font-size: 2vw;
-}

@@ -1,3 +1,11 @@
+To Do:
+
+- Format jellybeans
+- Put everything into its own component
+- Make the jelly beans a filter
+
+
+
 Plan:
 
 - mini jellybean shaped tags for different languages/tools. show these on each propject. in the toolbox, be able to click on one so it filters through the projects and only shows the projects that use that language/tool.

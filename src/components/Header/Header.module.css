@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem 0;
+}
+
+
+.header a {
+    color: #D9D9D9;
+    text-decoration: none;
+    font-size: clamp(10px, 3vw, 25px);
+}
+
+.header a:hover {
+    color: #D88C9A;
+}
