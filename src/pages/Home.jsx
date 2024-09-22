@@ -65,9 +65,9 @@ const Home = () => {
       <div className="fireplace-palace">
         <h3>FIREPLACE PALACE</h3>
         <div className="project-description-container">
-          <a href="#">
+          <Link to="#">
             <img src="src/assets/fireplacepalace.png"/>
-          </a>
+          </Link>
           <span>
             <p className="project-description">DESCRIPTION HERE.
               <br></br>Built using React.js.
@@ -90,14 +90,24 @@ const Home = () => {
       <div className="film-wizard">
         <h3>FILM-WIZARD AI CHATBOT</h3>
         <div className="project-description-container">
-          <a href="#">
-            <img src="x"/>
-          </a>
+          <Link to="#">
+            <img src="src/assets/filmwizard.png"/>
+          </Link>
           <span>
             <p className="project-description">DESCRIPTION HERE.
               <br></br>Built using React.js.
             </p>
-            <p className="jellybeans">JavaScript</p>
+            <div className="jellybean-project-section">
+              <p className="jellybeans project-bean">HTML</p>
+              <p className="jellybeans project-bean">CSS</p>
+              <p className="jellybeans project-bean">JavaScript</p>
+              <p className="jellybeans project-bean">React</p>
+              <p className="jellybeans project-bean">Git</p>
+              <p className="jellybeans project-bean">GitHub</p>
+              <p className="jellybeans project-bean">Figma</p>
+              <p className="jellybeans project-bean">Node.js</p>
+              <p className="jellybeans project-bean">Vite</p>
+            </div>
           </span>
         </div>
       </div>
@@ -105,13 +115,24 @@ const Home = () => {
       <div className="weather-finder">
         <h3>WEATHER FINDER</h3>
         <div className="project-description-container">
-          <a href="#">
-            <img src="x"/>
-          </a>
+          <Link to="#">
+            <img src="src/assets/weather.png"/>
+          </Link>
           <span>
             <p className="project-description">DESCRIPTION HERE.
               <br></br>Built using React.js.
             </p>
+            <div className="jellybean-project-section">
+              <p className="jellybeans project-bean">HTML</p>
+              <p className="jellybeans project-bean">CSS</p>
+              <p className="jellybeans project-bean">JavaScript</p>
+              <p className="jellybeans project-bean">React</p>
+              <p className="jellybeans project-bean">Git</p>
+              <p className="jellybeans project-bean">GitHub</p>
+              <p className="jellybeans project-bean">Figma</p>
+              <p className="jellybeans project-bean">Node.js</p>
+              <p className="jellybeans project-bean">Vite</p>
+            </div>
           </span>
         </div>
       </div>

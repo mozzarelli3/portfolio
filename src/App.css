@@ -13,17 +13,12 @@ a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 
 /* ------ HERO / TITLE SECTION ------ */
 
 .hero {
-    padding: 6.5vw 5vw 11vw;
+    padding: 12vh 5vw 30vh;
     display: flex;
     flex-direction: column;
     max-width: 100%;
