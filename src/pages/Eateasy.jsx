@@ -6,7 +6,14 @@ const Eateasy = () => {
   return (
     <>
       <Header />
-      
+
+
+        <h1>eatEasy</h1>
+        <p>Short description here.</p>
+        
+
+
+
       <Footer />
     </>
   )
